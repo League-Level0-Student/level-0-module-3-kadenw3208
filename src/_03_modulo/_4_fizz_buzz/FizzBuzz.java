@@ -1,6 +1,7 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import java.util.Random;
 
 /**
 * Fizz Buzz
@@ -21,6 +22,13 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
-
+Random ran=new Random();
+int numba=ran.nextInt(20)+1;
+if(numba %=0) {
+	System.out.println(numba);
 }
+}else {
+	equalsIgnoreCase
+}
+	
 
